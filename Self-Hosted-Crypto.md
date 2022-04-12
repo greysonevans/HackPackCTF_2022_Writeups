@@ -32,6 +32,12 @@ While inputting the encrypted flag to a ROT-13 cipher may seem convenient, much 
 
 Using the output from hexdump, I appended the contents to a python file and converted the encrypted string back to it's original form, resulting in the flag!
 
+Doing so required:
+ - Appending the hexadecimal values to a python list.
+ - Converting the hexadecimal values to decimal, then subtracting 13 from the value.
+ - Adding the subtracted values to a list containing the flag.
+ - Printing the flag in ASCII format.
+
 ![image](https://github.com/greysonevans/HackPackCTF_2022_Writeups/blob/main/images/Pasted%20image%2020220412111828.png?raw=true)
 
 Below, includes my solution for the challenge, `solve.py`.
