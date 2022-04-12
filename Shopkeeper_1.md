@@ -9,4 +9,5 @@
 Beginning the challenge, I used the command `nc cha.hackpack.club 10992` to interact with the CTF. After initiating a connection, a long string of text is outputted before an interactive game appears. Based on the characteristics of the string (i.e., equal signs at the end of the string), I knew the text was likely Base64 encoded.
 
 ![image](https://raw.githubusercontent.com/greysonevans/HackPackCTF_2022_Writeups/main/images/Pasted%20image%2020220410152521.png)
+
 ![image](https://raw.githubusercontent.com/greysonevans/HackPackCTF_2022_Writeups/main/images/Pasted%20image%2020220410152544.png)
