@@ -12,4 +12,4 @@ The challenge provides two files, `encrypter` (a go-compiled binary), and the `e
 Opening up `encrypter` in IDA-Pro Home, I viewed the `main_main` function, then decompiled the function using IDA-Pro's `generate pseudocode` feature using the `f5` shortcut.
 
 ![image](https://raw.githubusercontent.com/greysonevans/HackPackCTF_2022_Writeups/main/images/Pasted%20image%2020220412110519.png)
-![image](https://raw.githubusercontent.com/greysonevans/HackPackCTF_2022_Writeups/main/images/Pasted%20image%2020220412110730.png
+![image](https://raw.githubusercontent.com/greysonevans/HackPackCTF_2022_Writeups/main/images/Pasted%20image%2020220412110730.png)
