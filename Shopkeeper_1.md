@@ -13,8 +13,8 @@ Beginning the challenge, I used the command `nc cha.hackpack.club 10992` to inte
 
 Then, I decoded the Base64 string to further inspect it's content, revealing an ELF 64-bit binary. Upon executing the file, the same shopkeeping game appeared!
 
-![image](https://raw.githubusercontent.com/greysonevans/HackPackCTF_2022_Writeups/main/images/Pasted%20image%2020220410152620.png)
+![image](https://raw.githubusercontent.com/greysonevans/HackPackCTF_2022_Writeups/main/images/Pasted%20image%2020220410153620.png)
 
 Afterward, I used the `strings` command to read printable characters in the binary, revealing the flag!
 
-![image](https://raw.githubusercontent.com/greysonevans/HackPackCTF_2022_Writeups/main/images/Pasted%20image%2020220410152958.png)
+![image](https://raw.githubusercontent.com/greysonevans/HackPackCTF_2022_Writeups/main/images/Pasted%20image%2020220410153958.png)
