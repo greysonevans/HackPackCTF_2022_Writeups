@@ -40,6 +40,8 @@ print(poc)
 print(pickle.dumps(poc))
 ```
 
+After generating the object to be deserialized, I appended the output to an image file to be uploaded.
+
 ![image](https://raw.githubusercontent.com/greysonevans/HackPackCTF_2022_Writeups/main/images/Pasted%20image%2020220410232537.png)
 
 Then, by uploading and visiting the respective file, I received a connection back on my VPS!
