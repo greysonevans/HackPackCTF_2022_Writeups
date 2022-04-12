@@ -26,7 +26,7 @@ Sure enough, the encrypter functions as a classic ROT-13 cipher!
 
 ![image](https://raw.githubusercontent.com/greysonevans/HackPackCTF_2022_Writeups/main/images/Pasted%20image%2020220412111449.png)
 
-While inputting the encrypted flag to a ROT-13 cipher may seem convenient, much of the characters in the file contain non-printable characters, meaning that some python scripting is required to seamlessly solve the challenge.
+While inputting the encrypted flag to a ROT-13 cipher may seem convenient, much of the characters in the file are not readable, meaning that some python scripting is required to seamlessly solve the challenge.
 
 ![image](https://github.com/greysonevans/HackPackCTF_2022_Writeups/blob/main/images/Pasted%20image%2020220412111710.png?raw=true)
 
